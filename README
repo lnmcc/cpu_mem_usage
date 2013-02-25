@@ -1,0 +1,7 @@
+* build:
+    g++ -Wall -g -o sysInfoRec sysInfoRec.c 
+* run:
+    -t  打印信息的时间间隔(秒)
+* example:
+    sysInfoRec -t 10
+    输出结果到文件 sysInfoRec -t 10 &>/tmp/log
